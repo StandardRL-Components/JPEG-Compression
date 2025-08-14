@@ -23,22 +23,18 @@ JPEG-EXP-3/
 ├── compression_utils.py               # JPEG compression utilities
 ├── create_plots_and_analysis.py       # Results visualisation and CSV export
 │
-├── results_pretrained_realistic/      # Generated experiment results
-│   ├── experiment_results.csv         # Raw episode data in CSV format
-│   ├── experiment_results.json        # Raw experiment data in JSON
-│   ├── experiment_summary.json        # High-level summary statistics
-│   ├── summary_statistics.csv         # Performance analysis with baselines
-│   ├── plots/                         # Generated visualisation charts
-│   │   ├── reward_by_compression.png
-│   │   ├── episode_length_by_compression.png
-│   │   └── performance_vs_compression_ratio.png
-│   ├── raw_data/                      # Intermediate experiment snapshots
-│   │   └── intermediate_results_*.json
-│   └── videos/                        # (Empty - reserved for future use)
-│
-└── unused/                            # Archive of development files
-    ├── [Previous experiment versions, test files, old configs]
-    └── [Moved here during cleanup - safe to delete]
+└── results_pretrained_realistic/      # Generated experiment results
+    ├── experiment_results.csv         # Raw episode data in CSV format
+    ├── experiment_results.json        # Raw experiment data in JSON
+    ├── experiment_summary.json        # High-level summary statistics
+    ├── summary_statistics.csv         # Performance analysis with baselines
+    ├── plots/                         # Generated visualisation charts
+    │   ├── reward_by_compression.png
+    │   ├── episode_length_by_compression.png
+    │   └── performance_vs_compression_ratio.png
+    ├── raw_data/                      # Intermediate experiment snapshots
+    │   └── intermediate_results_*.json
+    └── videos/                        # (Empty - reserved for future use)
 ```
 
 ## 🔧 File Purposes and Dependencies
