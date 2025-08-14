@@ -1,0 +1,23 @@
+# Core RL Libraries  
+gymnasium[mujoco]>=1.0.0
+stable-baselines3>=2.0.0
+sb3-contrib>=2.0.0
+
+# MuJoCo Physics
+mujoco>=3.0.0
+
+# Model Downloads
+huggingface-hub>=0.17.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Visualization  
+matplotlib>=3.5.0
+
+# Image Processing
+pillow>=9.0.0
+
+# Utilities
+tqdm>=4.60.0

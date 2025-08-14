@@ -1,0 +1,13 @@
+experiment,model,compression_level,mean_reward,std_reward,mean_episode_length,compression_ratio,noise_std,num_episodes
+ppo_walker2d_none_compression,ppo_walker2d,none,1094.625557702049,20.542615818660675,500.0,1.0,0.0,50
+ppo_walker2d_minimal_compression,ppo_walker2d,minimal,1099.9253945892206,23.006007261286246,500.0,1.2,0.001,50
+ppo_walker2d_low_compression,ppo_walker2d,low,1097.1961016474256,27.900503179571317,500.0,2.0,0.005,50
+ppo_walker2d_medium_compression,ppo_walker2d,medium,1110.71940581514,25.31206815644789,500.0,3.0,0.02,50
+ppo_walker2d_high_compression,ppo_walker2d,high,1156.3112301949304,32.571973669997305,500.0,5.0,0.05,50
+ppo_walker2d_very_high_compression,ppo_walker2d,high,1141.5460007238098,35.63828664989442,500.0,5.0,0.05,50
+sac_hopper_none_compression,sac_hopper,none,1963.1144328374055,29.187760620382225,500.0,1.0,0.0,50
+sac_hopper_minimal_compression,sac_hopper,minimal,1966.3405524223638,24.408758216541976,500.0,1.2,0.001,50
+sac_hopper_low_compression,sac_hopper,low,1962.9451683777206,28.996128336728642,498.9,2.0,0.005,50
+sac_hopper_medium_compression,sac_hopper,medium,1750.629870878301,404.34341375390045,427.84,3.0,0.02,50
+sac_hopper_high_compression,sac_hopper,high,896.365728092951,350.5719313141599,226.72,5.0,0.05,50
+sac_hopper_very_high_compression,sac_hopper,high,988.4496840477364,366.94727160627207,246.78,5.0,0.05,50

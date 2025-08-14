@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+venv-*/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Experiment outputs
+models_pretrained_realistic/*/
+!models_pretrained_realistic/.gitkeep
+results_pretrained_realistic/*/
+!results_pretrained_realistic/.gitkeep
+logs/*/
+!logs/.gitkeep
+data/*/
+!data/.gitkeep
+
+# Large files
+*.zip
+*.tar.gz
+*.mp4
+*.avi
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# PyTorch models
+*.pth
+*.pt
+
+# Weights and Biases
+wandb/
+
+# System files
+*.log
+*.out
+*.pid
+
+# Backup files
+*.bak
+*.backup
