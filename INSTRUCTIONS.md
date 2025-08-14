@@ -139,7 +139,7 @@ results_pretrained_realistic/
 
 1. **Robust Model (PPO Walker2d)**:
    - Minimal performance change across compression levels
-   - May show slight improvement due to regularization effect
+   - May show slight improvement due to regularisation effect
    - Indicates good noise tolerance
 
 2. **Sensitive Model (SAC Hopper)**:
@@ -277,7 +277,7 @@ This experiment framework can be used for:
 1. **Algorithm robustness testing**: Compare RL algorithms' noise tolerance
 2. **Deployment planning**: Determine acceptable compression levels for robotics
 3. **Architecture research**: Study which model architectures are more robust
-4. **Compression optimization**: Find optimal compression-performance trade-offs
+4. **Compression optimisation**: Find optimal compression-performance trade-offs
 
 ## ⚠️ Limitations
 

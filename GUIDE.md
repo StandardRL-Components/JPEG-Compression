@@ -21,14 +21,14 @@ JPEG-EXP-3/
 ├── simple_evaluation_runner.py        # Episode evaluation framework
 ├── state_noise_simulator.py           # Compression noise simulation
 ├── compression_utils.py               # JPEG compression utilities
-├── create_plots_and_analysis.py       # Results visualization and CSV export
+├── create_plots_and_analysis.py       # Results visualisation and CSV export
 │
 ├── results_pretrained_realistic/      # Generated experiment results
 │   ├── experiment_results.csv         # Raw episode data in CSV format
 │   ├── experiment_results.json        # Raw experiment data in JSON
 │   ├── experiment_summary.json        # High-level summary statistics
 │   ├── summary_statistics.csv         # Performance analysis with baselines
-│   ├── plots/                         # Generated visualization charts
+│   ├── plots/                         # Generated visualisation charts
 │   │   ├── reward_by_compression.png
 │   │   ├── episode_length_by_compression.png
 │   │   └── performance_vs_compression_ratio.png
@@ -96,7 +96,7 @@ JPEG-EXP-3/
 **Note**: Currently provides compression simulation interface, reserved for future visual compression work
 
 #### `create_plots_and_analysis.py`
-**Purpose**: Results visualization and statistical analysis  
+**Purpose**: Results visualisation and statistical analysis  
 **Used by**: `run_realistic_experiment.py`  
 **Generates**:
 - Bar charts: reward vs compression, episode length vs compression
@@ -127,7 +127,7 @@ JPEG-EXP-3/
 
 #### `results_pretrained_realistic/`
 **Created by**: `run_realistic_experiment.py` and `create_plots_and_analysis.py`  
-**Contains**: Complete experiment outputs, visualizations, and statistical analyses
+**Contains**: Complete experiment outputs, visualisations, and statistical analyses
 
 ## 🔬 Scientific Methodology
 
@@ -151,7 +151,7 @@ JPEG-EXP-3/
 - **Robust to compression**: Shows minimal performance degradation
 - **Baseline**: 1106 ± 22 reward
 - **High compression**: 1158 ± 39 reward (+4.7% improvement)
-- **Interpretation**: Noise may provide beneficial regularization
+- **Interpretation**: Noise may provide beneficial regularisation
 
 #### SAC Hopper-v5 (One-legged Hopping)  
 - **Highly sensitive to compression**: Clear performance cliff
@@ -180,7 +180,7 @@ Since the pre-trained models operate on state observations (not visual), we simu
 ### Results Pipeline
 1. **Raw data collection**: JSON snapshots during execution
 2. **Statistical analysis**: Mean, std dev, performance ratios
-3. **Visualization**: Matplotlib bar charts with error bars  
+3. **Visualisation**: Matplotlib bar charts with error bars  
 4. **Export formats**: CSV for further analysis, JSON for reproducibility
 
 ## 🔍 Troubleshooting Common Issues
@@ -225,7 +225,7 @@ Since the pre-trained models operate on state observations (not visual), we simu
 - Optimize bandwidth vs performance trade-offs
 - Plan quality-aware deployment strategies
 
-### Compression Optimization
+### Compression Optimisation
 - Find optimal compression-performance curves
 - Develop adaptive compression schemes
 - Design compression-aware training methods
@@ -235,7 +235,7 @@ Since the pre-trained models operate on state observations (not visual), we simu
 ### Additional Algorithms
 - **A2C/A3C**: Actor-critic methods
 - **TD3**: Twin Delayed DDPG  
-- **TRPO**: Trust Region Policy Optimization
+- **TRPO**: Trust Region Policy Optimisation
 - **SAC variants**: Discrete SAC, distributional RL
 
 ### Environment Expansion

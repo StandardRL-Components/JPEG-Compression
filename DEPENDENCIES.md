@@ -126,8 +126,8 @@ pip install --upgrade pip setuptools wheel
 | opencv-python | 4.8.1.78 | Computer vision | Image manipulation |
 | numpy | 1.24.3 | Numerical computing | Array operations |
 | pandas | 2.0.3 | Data analysis | Results processing |
-| matplotlib | 3.7.2 | Plotting | Visualization |
-| seaborn | 0.12.2 | Statistical visualization | Enhanced plots |
+| matplotlib | 3.7.2 | Plotting | Visualisation |
+| seaborn | 0.12.2 | Statistical visualisation | Enhanced plots |
 | tqdm | 4.65.0 | Progress bars | User feedback |
 | huggingface-hub | 0.16.4 | Model downloading | Pre-trained model access |
 | rl_zoo3 | latest | RL model zoo | Pre-trained agents |
@@ -153,7 +153,7 @@ pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https
 # Image processing
 pip install Pillow==10.0.0 opencv-python==4.8.1.78
 
-# Data analysis and visualization
+# Data analysis and visualisation
 pip install numpy==1.24.3 pandas==2.0.3 matplotlib==3.7.2 seaborn==0.12.2
 
 # Utilities

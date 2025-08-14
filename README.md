@@ -1,3 +1,5 @@
+![StandardRL Components Logo](https://assets.standardrl.com/general/components/icon-full.png)
+
 # JPEG Compression Robustness Experiment
 
 ## 🎯 Overview
@@ -10,7 +12,7 @@ This experiment tests how JPEG compression affects pre-trained reinforcement lea
 - **Realistic Environments**: MuJoCo physics-based Walker2d and Hopper tasks
 - **Systematic Testing**: 6 compression levels from baseline to heavy compression
 - **Statistical Analysis**: 50 episodes per test for statistical significance
-- **Automated Visualization**: Generates bar charts and CSV exports
+- **Automated Visualisation**: Generates bar charts and CSV exports
 - **Clean Implementation**: Thoroughly tested and documented
 
 ## 🚀 Quick Start
@@ -36,7 +38,7 @@ Based on 600 total episodes (50 per configuration), the experiment reveals drama
 ### PPO Walker2d-v4 (Bipedal Walking)
 - **Baseline**: 1106 ± 22 reward
 - **High Compression**: 1158 ± 39 reward (+4.7% improvement)
-- **Finding**: **Robust to compression** - noise may provide beneficial regularization
+- **Finding**: **Robust to compression** - noise may provide beneficial regularisation
 - **Episode Length**: Consistent 500 steps across all compression levels
 
 ### SAC Hopper-v5 (One-legged Hopping)
@@ -70,7 +72,7 @@ Based on 600 total episodes (50 per configuration), the experiment reveals drama
 - `pretrained_model_loader.py` - HuggingFace model integration
 - `simple_evaluation_runner.py` - Episode evaluation framework
 - `state_noise_simulator.py` - Compression noise simulation
-- `create_plots_and_analysis.py` - Results analysis and visualization
+- `create_plots_and_analysis.py` - Results analysis and visualisation
 
 **Documentation**:
 - `README.md` - Project overview (this file)
@@ -82,7 +84,7 @@ Based on 600 total episodes (50 per configuration), the experiment reveals drama
 - `results_pretrained_realistic/` - All experiment outputs
   - CSV files for analysis
   - Statistical summaries
-  - Bar charts and visualizations
+  - Bar charts and visualisation
 
 *See GUIDE.md for complete directory tree and file purposes.*
 
@@ -90,7 +92,7 @@ Based on 600 total episodes (50 per configuration), the experiment reveals drama
 
 ### PPO Walker2d-v4
 - **Source**: `crispisu/ppo-Walker2D-v4` (HuggingFace Hub)
-- **Algorithm**: Proximal Policy Optimization
+- **Algorithm**: Proximal Policy Optimisation
 - **Environment**: Walker2d-v4 (bipedal walking robot)
 - **Performance**: ~1100 reward baseline
 
@@ -121,7 +123,7 @@ Since the models are trained on state observations (not visual), the experiment 
 ## 🔬 Key Scientific Findings
 
 ### Algorithm-Specific Robustness
-1. **PPO demonstrates remarkable noise tolerance** - actual performance improvement suggests beneficial regularization
+1. **PPO demonstrates remarkable noise tolerance** - actual performance improvement suggests beneficial regularisation
 2. **SAC shows critical compression threshold** - stable until ~50% quality, then catastrophic degradation  
 3. **Task complexity matters** - single-leg hopping more sensitive than bipedal walking
 4. **Variance patterns** - compression increases performance instability in sensitive models
@@ -161,7 +163,7 @@ Since the models are trained on state observations (not visual), the experiment 
 ### Real-World Applications
 - **Deployment guidelines**: Create compression policy recommendations
 - **Quality-aware systems**: Develop adaptive compression for robotics
-- **Bandwidth optimization**: Find optimal compression-performance curves
+- **Bandwidth optimisation**: Find optimal compression-performance curves
 - **Robustness certification**: Formal guarantees for compressed deployments
 
 ## 💻 System Requirements
